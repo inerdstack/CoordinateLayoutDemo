@@ -21,4 +21,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="With AppBarLayout"/>
+
+
+    <Button
+        android:id="@+id/btn_collapsingToolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="With CollapsingToolbarLayout"/>
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="With Custom"/>
 </LinearLayout>

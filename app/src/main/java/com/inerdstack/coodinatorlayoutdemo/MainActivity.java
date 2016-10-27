@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.btn_floatingActiongButton).setOnClickListener(this);
         findViewById(R.id.btn_appBarLayout).setOnClickListener(this);
+        findViewById(R.id.btn_collapsingToolbarLayout).setOnClickListener(this);
+        findViewById(R.id.btn_custom).setOnClickListener(this);
     }
 
     @Override
@@ -24,6 +26,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_appBarLayout:
                 startActivity(new Intent(MainActivity.this, AppBarLayoutActivity.class));
+                break;
+            case R.id.btn_collapsingToolbarLayout:
+                startActivity(new Intent(MainActivity.this, CollapsingToolbarLayoutActivity.class));
+                break;
+            case R.id.btn_custom:
+                startActivity(new Intent(MainActivity.this, CustomActivity.class));
                 break;
         }
     }
